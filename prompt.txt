@@ -1,0 +1,8 @@
+I wanna create a website for a restaurant in Barcelona named "L’Olivar Vell". Static website, no server-side logic. It must look very professional and modern. Well designed and structured, like an actual profesional restaurant website. Website must be in English and Spanish (user can choose language). Dish names with photos and prices. Reservation calendar that lets user select a date and time, then give their name and E-Mail. After selecting, "Your reservation has been made" should be shown (without the reservation actually being stored anywhere - it's just a sample website, no server-side logic).
+
+Include opening hours.
+Location with embedded map. (make it up)
+Contact details (make them up)
+Beautiful allery showing the beautiful space and beautiful ambience.
+Rapid loading times.
+5 star customer reviews (make them up)
