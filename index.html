@@ -13,8 +13,8 @@
 <body>
     <!-- Language Switcher -->
     <div class="language-switcher">
-        <button class="lang-btn active" data-lang="en">EN</button>
-        <button class="lang-btn" data-lang="es">ES</button>
+        <button class="lang-btn active" data-lang="en" onclick="switchLanguage('en')">EN</button>
+        <button class="lang-btn" data-lang="es" onclick="switchLanguage('es')">ES</button>
     </div>
 
     <!-- Navigation -->
@@ -98,6 +98,61 @@
                         <p data-i18n="menu.items.gambas.desc">Sizzling garlic prawns with white wine and chili</p>
                     </div>
                 </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1572695157728-582b69cefeb5?w=400&h=300&fit=crop')"></div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-i18n="menu.items.pulpo.name">Pulpo a la Gallega</h3>
+                            <span class="price">€18</span>
+                        </div>
+                        <p data-i18n="menu.items.pulpo.desc">Galician-style octopus with paprika, olive oil, and boiled potatoes</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1623855244264-7a0c3b8d0ef0?w=400&h=300&fit=crop')"></div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-i18n="menu.items.patatas.name">Patatas Bravas</h3>
+                            <span class="price">€9</span>
+                        </div>
+                        <p data-i18n="menu.items.patatas.desc">Crispy fried potatoes with spicy bravas sauce and aioli</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1604909052743-94e838986d24?w=400&h=300&fit=crop')"></div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-i18n="menu.items.pimientos.name">Pimientos de Padrón</h3>
+                            <span class="price">€10</span>
+                        </div>
+                        <p data-i18n="menu.items.pimientos.desc">Fried Padrón peppers with coarse sea salt</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1619040510138-e6f3f7d2e207?w=400&h=300&fit=crop')"></div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-i18n="menu.items.jamon.name">Jamón Ibérico</h3>
+                            <span class="price">€22</span>
+                        </div>
+                        <p data-i18n="menu.items.jamon.desc">Hand-carved Iberian ham with tomato and breadsticks</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400&h=300&fit=crop')"></div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-i18n="menu.items.ensalada.name">Ensalada Mediterránea</h3>
+                            <span class="price">€11</span>
+                        </div>
+                        <p data-i18n="menu.items.ensalada.desc">Mixed greens with cherry tomatoes, olives, feta cheese, and olive oil dressing</p>
+                    </div>
+                </div>
             </div>
 
             <!-- Main Courses -->
@@ -145,6 +200,61 @@
                         <p data-i18n="menu.items.risotto.desc">Creamy mushroom risotto with truffle oil and Parmesan</p>
                     </div>
                 </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1580554530778-ca36943938b2?w=400&h=300&fit=crop')"></div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-i18n="menu.items.lubina.name">Lubina al Horno</h3>
+                            <span class="price">€26</span>
+                        </div>
+                        <p data-i18n="menu.items.lubina.desc">Oven-baked sea bass with lemon, herbs, and roasted vegetables</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1546833998-877b37c2e5c6?w=400&h=300&fit=crop')"></div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-i18n="menu.items.solomillo.name">Solomillo de Ternera</h3>
+                            <span class="price">€34</span>
+                        </div>
+                        <p data-i18n="menu.items.solomillo.desc">Beef tenderloin with red wine reduction, foie gras, and grilled asparagus</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1633964913295-ceb43826dd64?w=400&h=300&fit=crop')"></div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-i18n="menu.items.arroz_negro.name">Arroz Negro</h3>
+                            <span class="price">€25</span>
+                        </div>
+                        <p data-i18n="menu.items.arroz_negro.desc">Black rice with squid ink, calamari, and aioli</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&h=300&fit=crop')"></div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-i18n="menu.items.fideuá.name">Fideuá de Mariscos</h3>
+                            <span class="price">€27</span>
+                        </div>
+                        <p data-i18n="menu.items.fideuá.desc">Seafood noodle paella with prawns, mussels, and squid</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=300&fit=crop')"></div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-i18n="menu.items.cochinillo.name">Cochinillo Asado</h3>
+                            <span class="price">€30</span>
+                        </div>
+                        <p data-i18n="menu.items.cochinillo.desc">Roasted suckling pig with crispy skin and apple compote</p>
+                    </div>
+                </div>
             </div>
 
             <!-- Desserts -->
@@ -179,6 +289,61 @@
                             <span class="price">€8</span>
                         </div>
                         <p data-i18n="menu.items.flan.desc">Smooth egg custard with caramel sauce</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400&h=300&fit=crop')"></div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-i18n="menu.items.churros.name">Churros con Chocolate</h3>
+                            <span class="price">€10</span>
+                        </div>
+                        <p data-i18n="menu.items.churros.desc">Traditional fried dough pastries with hot chocolate dipping sauce</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1587314168485-3236d6710814?w=400&h=300&fit=crop')"></div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-i18n="menu.items.tarta_queso.name">Tarta de Queso</h3>
+                            <span class="price">€11</span>
+                        </div>
+                        <p data-i18n="menu.items.tarta_queso.desc">Basque-style burnt cheesecake with berry compote</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400&h=300&fit=crop')"></div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-i18n="menu.items.mel_mato.name">Mel i Mató</h3>
+                            <span class="price">€9</span>
+                        </div>
+                        <p data-i18n="menu.items.mel_mato.desc">Fresh cheese with honey and walnuts, a Catalan classic</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=400&h=300&fit=crop')"></div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-i18n="menu.items.tiramisu.name">Tiramisú Mediterráneo</h3>
+                            <span class="price">€11</span>
+                        </div>
+                        <p data-i18n="menu.items.tiramisu.desc">Mediterranean twist on classic tiramisu with citrus notes</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1612203985729-70726954388c?w=400&h=300&fit=crop')"></div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-i18n="menu.items.torrijas.name">Torrijas</h3>
+                            <span class="price">€9</span>
+                        </div>
+                        <p data-i18n="menu.items.torrijas.desc">Spanish-style French toast with cinnamon and honey</p>
                     </div>
                 </div>
             </div>
@@ -339,24 +504,29 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <h3>L'Olivar Vell</h3>
-                    <p data-i18n="footer.tagline">Authentic Mediterranean Cuisine Since 1987</p>
+        <a href="https://lotuslabs.one" target="_blank" rel="noopener noreferrer" class="footer-link-wrapper">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <h3>L'Olivar Vell</h3>
+                        <p data-i18n="footer.tagline">Authentic Mediterranean Cuisine Since 1987</p>
+                    </div>
+                    <div class="footer-links">
+                        <span data-i18n="nav.home">Home</span>
+                        <span data-i18n="nav.menu">Menu</span>
+                        <span data-i18n="nav.gallery">Gallery</span>
+                        <span data-i18n="nav.reservations">Reservations</span>
+                        <span data-i18n="nav.contact">Contact</span>
+                    </div>
                 </div>
-                <div class="footer-links">
-                    <a href="#home" data-i18n="nav.home">Home</a>
-                    <a href="#menu" data-i18n="nav.menu">Menu</a>
-                    <a href="#gallery" data-i18n="nav.gallery">Gallery</a>
-                    <a href="#reservations" data-i18n="nav.reservations">Reservations</a>
-                    <a href="#contact" data-i18n="nav.contact">Contact</a>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 L'Olivar Vell. <span data-i18n="footer.rights">All rights reserved.</span></p>
+                </div>
+                <div class="footer-credit">
+                    <p>Made with love by <strong>lotuslabs.one</strong></p>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 L'Olivar Vell. <span data-i18n="footer.rights">All rights reserved.</span></p>
-            </div>
-        </div>
+        </a>
     </footer>
 
     <script src="script.js"></script>

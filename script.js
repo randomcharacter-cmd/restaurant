@@ -37,6 +37,26 @@ const translations = {
                     name: "Gambas al Ajillo",
                     desc: "Sizzling garlic prawns with white wine and chili"
                 },
+                pulpo: {
+                    name: "Pulpo a la Gallega",
+                    desc: "Galician-style octopus with paprika, olive oil, and boiled potatoes"
+                },
+                patatas: {
+                    name: "Patatas Bravas",
+                    desc: "Crispy fried potatoes with spicy bravas sauce and aioli"
+                },
+                pimientos: {
+                    name: "Pimientos de Padrón",
+                    desc: "Fried Padrón peppers with coarse sea salt"
+                },
+                jamon: {
+                    name: "Jamón Ibérico",
+                    desc: "Hand-carved Iberian ham with tomato and breadsticks"
+                },
+                ensalada: {
+                    name: "Ensalada Mediterránea",
+                    desc: "Mixed greens with cherry tomatoes, olives, feta cheese, and olive oil dressing"
+                },
                 paella: {
                     name: "Paella de Mariscos",
                     desc: "Traditional seafood paella with saffron rice, mussels, prawns, and squid"
@@ -53,6 +73,26 @@ const translations = {
                     name: "Risotto de Setas",
                     desc: "Creamy mushroom risotto with truffle oil and Parmesan"
                 },
+                lubina: {
+                    name: "Lubina al Horno",
+                    desc: "Oven-baked sea bass with lemon, herbs, and roasted vegetables"
+                },
+                solomillo: {
+                    name: "Solomillo de Ternera",
+                    desc: "Beef tenderloin with red wine reduction, foie gras, and grilled asparagus"
+                },
+                arroz_negro: {
+                    name: "Arroz Negro",
+                    desc: "Black rice with squid ink, calamari, and aioli"
+                },
+                fideuá: {
+                    name: "Fideuá de Mariscos",
+                    desc: "Seafood noodle paella with prawns, mussels, and squid"
+                },
+                cochinillo: {
+                    name: "Cochinillo Asado",
+                    desc: "Roasted suckling pig with crispy skin and apple compote"
+                },
                 crema_catalana: {
                     name: "Crema Catalana",
                     desc: "Classic Catalan custard with caramelized sugar crust"
@@ -64,6 +104,26 @@ const translations = {
                 flan: {
                     name: "Flan de Huevo",
                     desc: "Smooth egg custard with caramel sauce"
+                },
+                churros: {
+                    name: "Churros con Chocolate",
+                    desc: "Traditional fried dough pastries with hot chocolate dipping sauce"
+                },
+                tarta_queso: {
+                    name: "Tarta de Queso",
+                    desc: "Basque-style burnt cheesecake with berry compote"
+                },
+                mel_mato: {
+                    name: "Mel i Mató",
+                    desc: "Fresh cheese with honey and walnuts, a Catalan classic"
+                },
+                tiramisu: {
+                    name: "Tiramisú Mediterráneo",
+                    desc: "Mediterranean twist on classic tiramisu with citrus notes"
+                },
+                torrijas: {
+                    name: "Torrijas",
+                    desc: "Spanish-style French toast with cinnamon and honey"
                 }
             }
         },
@@ -162,6 +222,26 @@ const translations = {
                     name: "Gambas al Ajillo",
                     desc: "Gambas al ajillo con vino blanco y guindilla"
                 },
+                pulpo: {
+                    name: "Pulpo a la Gallega",
+                    desc: "Pulpo estilo gallego con pimentón, aceite de oliva y patatas cocidas"
+                },
+                patatas: {
+                    name: "Patatas Bravas",
+                    desc: "Patatas fritas crujientes con salsa brava picante y alioli"
+                },
+                pimientos: {
+                    name: "Pimientos de Padrón",
+                    desc: "Pimientos de Padrón fritos con sal marina gruesa"
+                },
+                jamon: {
+                    name: "Jamón Ibérico",
+                    desc: "Jamón ibérico cortado a mano con tomate y picos"
+                },
+                ensalada: {
+                    name: "Ensalada Mediterránea",
+                    desc: "Mezcla de verduras con tomates cherry, aceitunas, queso feta y aliño de aceite de oliva"
+                },
                 paella: {
                     name: "Paella de Mariscos",
                     desc: "Paella tradicional de mariscos con arroz al azafrán, mejillones, gambas y calamares"
@@ -178,6 +258,26 @@ const translations = {
                     name: "Risotto de Setas",
                     desc: "Risotto cremoso de setas con aceite de trufa y parmesano"
                 },
+                lubina: {
+                    name: "Lubina al Horno",
+                    desc: "Lubina al horno con limón, hierbas y verduras asadas"
+                },
+                solomillo: {
+                    name: "Solomillo de Ternera",
+                    desc: "Solomillo de ternera con reducción de vino tinto, foie gras y espárragos a la parrilla"
+                },
+                arroz_negro: {
+                    name: "Arroz Negro",
+                    desc: "Arroz negro con tinta de calamar, calamares y alioli"
+                },
+                fideuá: {
+                    name: "Fideuá de Mariscos",
+                    desc: "Fideuá de mariscos con gambas, mejillones y calamares"
+                },
+                cochinillo: {
+                    name: "Cochinillo Asado",
+                    desc: "Cochinillo asado con piel crujiente y compota de manzana"
+                },
                 crema_catalana: {
                     name: "Crema Catalana",
                     desc: "Clásica crema catalana con costra de azúcar caramelizado"
@@ -189,6 +289,26 @@ const translations = {
                 flan: {
                     name: "Flan de Huevo",
                     desc: "Flan suave de huevo con salsa de caramelo"
+                },
+                churros: {
+                    name: "Churros con Chocolate",
+                    desc: "Churros tradicionales con salsa de chocolate caliente"
+                },
+                tarta_queso: {
+                    name: "Tarta de Queso",
+                    desc: "Tarta de queso estilo vasco con compota de frutos rojos"
+                },
+                mel_mato: {
+                    name: "Mel i Mató",
+                    desc: "Queso fresco con miel y nueces, un clásico catalán"
+                },
+                tiramisu: {
+                    name: "Tiramisú Mediterráneo",
+                    desc: "Tiramisú con un toque mediterráneo y notas cítricas"
+                },
+                torrijas: {
+                    name: "Torrijas",
+                    desc: "Torrijas al estilo español con canela y miel"
                 }
             }
         },
@@ -255,7 +375,14 @@ const translations = {
 // Language switching
 let currentLang = 'en';
 
+// Make this function globally accessible for onclick handlers
+window.switchLanguage = function(lang) {
+    console.log('switchLanguage called with:', lang);
+    setLanguage(lang);
+};
+
 function setLanguage(lang) {
+    console.log('setLanguage called with:', lang);
     currentLang = lang;
     document.documentElement.lang = lang;
 
@@ -265,32 +392,59 @@ function setLanguage(lang) {
     });
 
     // Update all translatable elements
+    let translatedCount = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const keys = element.dataset.i18n.split('.');
         let translation = translations[lang];
 
-        for (const key of keys) {
-            translation = translation[key];
+        try {
+            for (const key of keys) {
+                translation = translation[key];
+                if (translation === undefined) {
+                    console.warn(`Translation missing for: ${keys.join('.')} in ${lang}`);
+                    return;
+                }
+            }
+            element.textContent = translation;
+            translatedCount++;
+        } catch (error) {
+            console.error(`Error translating ${keys.join('.')}: ${error}`);
         }
-
-        element.textContent = translation;
     });
 
+    console.log(`Translated ${translatedCount} elements to ${lang}`);
+
     // Save preference
-    localStorage.setItem('language', lang);
+    try {
+        localStorage.setItem('language', lang);
+    } catch (e) {
+        console.warn('Could not save language preference to localStorage:', e);
+    }
 }
 
 // Initialize language
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOM Content Loaded');
+
     const savedLang = localStorage.getItem('language') || 'en';
     setLanguage(savedLang);
 
-    // Language switcher event listeners
-    document.querySelectorAll('.lang-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            setLanguage(btn.dataset.lang);
+    // Language switcher event listeners - using more direct approach
+    const langButtons = document.querySelectorAll('.lang-btn');
+    console.log('Found language buttons:', langButtons.length);
+
+    langButtons.forEach((btn, index) => {
+        console.log(`Button ${index}: data-lang="${btn.dataset.lang}"`);
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            const targetLang = btn.dataset.lang;
+            console.log('Language button clicked:', targetLang);
+            setLanguage(targetLang);
         });
     });
+
+    console.log('Language switcher initialized. Current language:', currentLang);
 
     // Mobile menu toggle
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
